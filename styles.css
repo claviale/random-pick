@@ -22,7 +22,7 @@ body {
 }
 
 .choices {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 button {
@@ -47,3 +47,24 @@ button:hover {
     font-style: italic;
     color: #00695C;
 }
+
+text{
+    font-family:  Arial, sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    color: #fff !important;
+    pointer-events:none;
+  }
+  
+  #chart{
+    z-index: 1;
+  }
+  
+  #question p{
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #00695C;
+    padding: 30px;
+  }

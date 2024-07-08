@@ -40,8 +40,8 @@ var data = [{"label":"Safe Lane", "value":1}, {"label":"Mid Lane", "value":2}, {
 var svg = d3.select('#chart')
     .append("svg")
     .data([data])
-    .attr("width",  w + padding.left + padding.right)
-    .attr("height", h + padding.top + padding.bottom);
+    .attr("viewBox", `0 0 ${w + padding.left + padding.right} ${h + padding.top + padding.bottom}`)
+    .style("max-width", 500 +'px');
 
 var container = svg.append("g")
     .attr("class", "chartholder")
